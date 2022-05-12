@@ -1,0 +1,21 @@
+<div class="toolbar">
+    <p>Uhrzeit: {{todayDate | date:'HH:mm'}} <br> Datum: {{todayDate| date:'dd.MM.yyy'}}</p>
+</div>
+ 
+<div ng-app="demo" ng-controller="myCtrl" class="dropDown">
+ 
+    <select>
+        <option >{{"Tag"}}</option>
+        <option selected>{{"Woche"}}</option>
+        <option >{{"Monat"}}</option>
+        </select>
+         
+        </div>
+         
+        <script>
+        var app = angular.module('demo', []);
+        app.controller('myCtrl', function($scope) {
+        $scope.names = ["Demavand", "Pradeep", "Ashutosh"];
+        });
+        </script>
+        
