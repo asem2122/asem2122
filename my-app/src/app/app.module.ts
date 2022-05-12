@@ -8,6 +8,7 @@ import { TemperatureBoxComponent } from './temperature-box/temperature-box.compo
 import { HumidityBoxComponent } from './humidity-box/humidity-box.component';
 import { TemperatureGraphComponent } from './temperature-graph/temperature-graph.component';
 import { HumidityGraphComponent } from './humidity-graph/humidity-graph.component';
+import { DatepipeComponent } from './datepipe/datepipe.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HumidityGraphComponent } from './humidity-graph/humidity-graph.componen
     TemperatureBoxComponent,
     HumidityBoxComponent,
     TemperatureGraphComponent,
-    HumidityGraphComponent
+    HumidityGraphComponent,
+    DatepipeComponent
   ],
   imports: [
     BrowserModule,
