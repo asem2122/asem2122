@@ -10,6 +10,7 @@ import { HumidityGraphComponent } from './humidity-graph/humidity-graph.componen
 import {RouterModule, Routes} from "@angular/router";
 import { MapComponent } from './map/map.component';
 import { DatepipeComponent } from './datepipe/datepipe.component';
+import { DropBoxComponent } from './drop-box/drop-box.component';
 
 const meineRouten: Routes = [
   {
@@ -24,7 +25,8 @@ const meineRouten: Routes = [
     HumidityBoxComponent,
     TemperatureGraphComponent,
     HumidityGraphComponent,
-    DatepipeComponent
+    DatepipeComponent,
+    DropBoxComponent
   ],
   imports: [
     BrowserModule,

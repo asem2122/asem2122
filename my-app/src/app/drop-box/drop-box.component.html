@@ -1,0 +1,17 @@
+
+<nav>
+    <h2>Woche</h2>
+     <input id="toggle" type="checkbox" checked>
+  <ul>
+    <li><a href="#">{{"Tag"}}</a></li>
+    <li><a href="#">{{"Woche"}}</a></li>
+    <li><a href="#">{{"Monat"}}</a></li>
+  </ul>
+</nav>
+
+<script>
+    var app = angular.module('demo', []);
+    app.controller('myCtrl', function($scope) {
+    $scope.names = ["Demavand", "Pradeep", "Ashutosh"];
+    });
+</script>
